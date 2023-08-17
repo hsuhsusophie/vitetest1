@@ -1,0 +1,135 @@
+.bg-white{
+    background-color: $white;
+}
+
+.bg-dark{
+    background-color:$dark;
+}
+
+.bg-primary{
+    background-color: $primary;
+}
+
+.bg-pink{
+    background-color: $pink;
+}
+
+.bg-brown{
+    background-color: $brown;
+}
+
+.text-primary{
+    color: $primary;
+}
+
+
+.text-secondary{
+    color: $secondary;
+}
+
+.text-white{
+    color:$white;
+}
+
+.text-dark{
+    color: $dark;
+}
+
+.text-gray{
+    color: $gray;
+}
+
+.text-dark-gray{
+    color:$dark-gray;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-end{
+    text-align: right;
+}
+
+.text-start{
+    text-align: left;
+}
+
+.fs-1 {
+    font-size: 64px;
+}
+
+.fs-2 {
+    font-size: 48px;
+}
+
+.fs-3 {
+    font-size: 36px;
+}
+
+.fs-4 {
+    font-size: 24px;
+}
+
+.fs-5 {
+    font-size: 20px;
+}
+
+.fs-6 {
+    font-size: 16px;
+}
+
+.fs-7 {
+    font-size: 14px;
+}
+
+.fw-bold{
+    font-weight: 700;
+}
+
+.d-flex {
+    display: flex;
+    ;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.jc-ct {
+    justify-content: center;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+
+.ai-ct {
+    align-items: center;
+}
+
+
+.py-12{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.w-80{
+    width: 80px;
+}
+
+.mb-8{
+    margin-bottom: 8px;
+}
+
+.mr-8{
+    margin-right: 8px;
+}
+.gap-16{
+    gap:64px;
+}
+
+.px-25{
+    padding: 25px 0;
+}

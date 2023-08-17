@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Roboto:ital,wght@0,400;1,900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+            <link rel="stylesheet" href="../assets//scss/all.scss">
+</head>
+
+<body>
+  <%- include('./layout/header'); -%>
+
+    <div class="container">
+      <div class="store">
+        <h1 class="fs-2 fw-bold">門市據點</h1>
+        <form action="index.html" class="jc-sb d-flex ai-ct">
+          <label for="store" class="fs-4">選擇分店</label>
+          <select name="store" id="store">
+            <option value="Taipei Zhongshan">台北中山旗艦店</option>
+            <option value="Taipei Zhishan">台北綠園店</option>
+            <option value="Taichung Cingshui">台中清水旗艦店</option>
+            <option value="Kaohsiung JhongJheng">高雄中正形象店</option>
+            <option value="Kaohsiung Dream Mall">高雄夢時代店</option>
+          </select>
+        </form>
+        <div class="location-wrap jc-sb d-flex flex-wrap">
+          <div class="location jc-sb d-flex ai-ct">
+            <img src="../assets/images/storepage-1.png" alt="Storepic">
+            <div class="store-detail">
+              <h2 class="fs-4">台北中山旗艦店</h2>
+              <ul>
+                <li class="mb-8">
+                  <a href="tel:(02)000-1234" class="d-flex ai-ct text-dark">
+                    <span class="material-icons-outlined mr-8">phone</span>
+                    <span>電話：(02)000-1234</span>
+                  </a>
+                </li>
+                <li class="mb-8">
+                  <a href="＃" class="d-flex ai-ct text-dark">
+                    <span class="material-icons-outlined mr-8" >schedule</span>
+                    <span>營業時間：10:00-21:00</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="d-flex ai-ct text-dark">
+                    <span class="material-icons-outlined mr-8">place</span>
+                    <span>地址：台北市中山區南京東路25巷2-1號</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="map">
+            <img src="../assets/images/螢幕快照 2020-02-13 16.35.44@2x.png" alt="Taipei Zhongshan Store Location">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <%- include('./layout/footer'); -%>
+
+      <script type="module" src="../main.js"></script>
+</body>
+
+</html>
