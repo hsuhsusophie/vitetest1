@@ -8,6 +8,7 @@
 @import "./pages/utilis";
 @import "./pages/store";
 @import "./pages/faq";
+@import "./pages/blog";
 
 
 *,
@@ -58,6 +59,9 @@ a {
   background-color: #aa0601;
 }
 
+.bg-secondary{
+  background-color: #650300;
+}
 
 /* components */
 .navbar {
