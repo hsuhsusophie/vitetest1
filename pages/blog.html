@@ -21,11 +21,11 @@
 
     <div class="blogNav bg-secondary">
       <div class="container d-flex jc-sb ai-ct">
-        <ul class="nav_main d-flex jc-sb">
-          <li class="nav_item jc-sb"><a class="fs-5 fw-bold text-white" href="blog.html">最新消息</a></li>
-          <li class="nav_item"><a class="fs-5 fw-bold text-white" href="special.html">特別企劃</a></li>
-          <li class="nav_item"><a class="fs-5 fw-bold text-white" href="#">新品上市</a></li>
-          <li><a class="fs-5 fw-bold text-white" href="#">鏡框小知識</a></li>
+        <ul class="nav_main d-flex jc-sb" data-aos="fade-up" >
+          <li class="nav_item jc-sb" data-aos="fade-up"><a class="fs-5 fw-bold text-white" href="blog.html">最新消息</a></li>
+          <li class="nav_item" data-aos="fade-up"><a class="fs-5 fw-bold text-white" href="special.html">特別企劃</a></li>
+          <li class="nav_item" data-aos="fade-up"><a class="fs-5 fw-bold text-white" href="#">新品上市</a></li>
+          <li><a class="fs-5 fw-bold text-white" href="#" data-aos="fade-up">鏡框小知識</a></li>
         </ul>
         <a class="icon text-white" href="#"><i class="icon icon-search icon-1"></i></a>
       </div>
@@ -33,24 +33,24 @@
 
 
     <div class="container">
-      <div class="blog">
-        <h1 class="fs-2 fw-bold">部落格</h1>
+      <div class="blog" >
+        <h1 class="fs-2 fw-bold" data-aos="fade-up">部落格</h1>
         <ul>
-          <li class="blog-card d-flex jc-sb mb-60">
-            <img src="../assets/images/blog-1.png" alt="blog-1">
+          <li class="blog-card d-flex jc-sb mb-60" >
+            <img src="../assets/images/blog-1.png" alt="blog-1" data-aos="fade-up">
             <div class="card-item d-flex flex-column jc-sb">
               <div>
-                <h3 class="fs-8 text-secondary px-24">情人特別企劃</h3>
+                <h3 class="fs-8 text-secondary px-24" data-aos="fade-up">情人特別企劃</h3>
                 <div class="d-flex jc-sb">
-                  <h4 class="fw-medium fs-5 px-24">2020 Valentine’s Special</h4>
-                  <p class="fs-6"><span>2020/02/14</span></p>
+                  <h4 class="fw-medium fs-5 px-24" data-aos="fade-up">2020 Valentine’s Special</h4>
+                  <p class="fs-6" data-aos="fade-up"><span>2020/02/14</span></p>
                 </div>
-                <p class="card-text fs-5 px-24">一年一度西洋情人節即將到來，我們推出最強「情人節企劃」，為這個甜蜜的節日加溫。偶爾跟另一半來個低調情侶單品，結合彼此喜好、找出合適框型款式，在這個春夏輕鬆搭出屬於你們的甜蜜默契！<br> 即日起至2/16為止，不論是熱戀情侶、自由自在一個人或是老夫老妻，只要從未來過本店的新朋友，綁定官方LINE好友，都可享專屬優惠⋯⋯</p>
+                <p class="card-text fs-5 px-24" data-aos="fade-up">一年一度西洋情人節即將到來，我們推出最強「情人節企劃」，為這個甜蜜的節日加溫。偶爾跟另一半來個低調情侶單品，結合彼此喜好、找出合適框型款式，在這個春夏輕鬆搭出屬於你們的甜蜜默契！<br> 即日起至2/16為止，不論是熱戀情侶、自由自在一個人或是老夫老妻，只要從未來過本店的新朋友，綁定官方LINE好友，都可享專屬優惠⋯⋯</p>
               </div>
-              <a href="#" class="fs-3 fw-bold text-secondary text-end">MORE</a>
+              <a href="#" class="fs-3 fw-bold text-secondary text-end" data-aos="fade-up">MORE</a>
             </div>
           </li>
-          <li class="blog-card d-flex jc-sb mb-60">
+          <li class="blog-card d-flex jc-sb mb-60" data-aos="fade-up">
             <img src="../assets/images/blog-2.png" alt="blog-2">
             <div class="card-item d-flex flex-column jc-sb">
               <div>
@@ -64,7 +64,7 @@
               <a href="#" class="fs-3 fw-bold text-secondary text-end">MORE</a>
             </div>
           </li>
-          <li class="blog-card d-flex jc-sb mb-60">
+          <li class="blog-card d-flex jc-sb mb-60" data-aos="fade-up">
             <img src="../assets/images/blog-3.png" alt="blog-3">
             <div class="card-item d-flex flex-column jc-sb">
               <div>
@@ -78,7 +78,7 @@
               <a href="#" class="fs-3 fw-bold text-secondary text-end">MORE</a>
             </div>
           </li>
-          <li class="blog-card d-flex jc-s mb-60">
+          <li class="blog-card d-flex jc-s mb-60" data-aos="fade-up">
             <img src="../assets/images/blog-4.png" alt="blog-4">
             <div class="card-item d-flex flex-column jc-sb">
               <div>
@@ -92,7 +92,7 @@
               <a href="#" class="fs-3 fw-bold text-secondary text-end">MORE</a>
             </div>
           </li>
-          <li class="blog-card d-flex jc-sb mb-60">
+          <li class="blog-card d-flex jc-sb mb-60" data-aos="fade-up">
             <img src="../assets/images/blog-5.png" alt="blog-5">
             <div class="card-item d-flex flex-column jc-sb">
               <div>
@@ -117,6 +117,8 @@
 
 
     <%- include('./layout/footer'); -%>
+    <%- include('./layout/aos'); -%>
+
 
       <script type="module" src="../main.js"></script>
 </body>

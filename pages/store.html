@@ -19,8 +19,8 @@
   <%- include('./layout/header'); -%>
 
     <div class="container">
-      <div class="store">
-        <h1 class="fs-2 fw-bold">門市據點</h1>
+      <div class="store" data-aos="fade-up">
+        <h1 class="fs-2 fw-bold" data-aos="fade-up">門市據點</h1>
         <form action="index.html" class="jc-sb d-flex ai-ct">
           <label for="store" class="fs-4">選擇分店</label>
           <select name="store" id="store">
@@ -31,26 +31,26 @@
             <option value="Kaohsiung Dream Mall">高雄夢時代店</option>
           </select>
         </form>
-        <div class="location-wrap jc-sb d-flex flex-wrap">
+        <div class="location-wrap jc-sb d-flex flex-wrap" data-aos="fade-up">
           <div class="location jc-sb d-flex ai-ct">
-            <img src="../assets/images/storepage-1.png" alt="Storepic">
+            <img src="../assets/images/storepage-1.png" alt="Storepic" data-aos="fade-up">
             <div class="store-detail">
               <h2 class="fs-4">台北中山旗艦店</h2>
               <ul>
-                <li class="mb-8">
+                <li class="mb-8" data-aos="fade-up">
                   <a href="tel:(02)000-1234" class="d-flex ai-ct text-dark">
                     <span class="material-icons-outlined mr-8">phone</span>
                     <span>電話：(02)000-1234</span>
                   </a>
                 </li>
-                <li class="mb-8">
-                  <a href="＃" class="d-flex ai-ct text-dark">
+                <li class="mb-8" data-aos="fade-up">
+                  <a href="＃" class="d-flex ai-ct text-dark" data-aos="fade-up">
                     <span class="material-icons-outlined mr-8" >schedule</span>
                     <span>營業時間：10:00-21:00</span>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="d-flex ai-ct text-dark">
+                  <a href="#" class="d-flex ai-ct text-dark" data-aos="fade-up">
                     <span class="material-icons-outlined mr-8">place</span>
                     <span>地址：台北市中山區南京東路25巷2-1號</span>
                   </a>
@@ -58,7 +58,7 @@
               </ul>
             </div>
           </div>
-          <div class="map">
+          <div class="map" data-aos="fade-up">
             <img src="../assets/images/螢幕快照 2020-02-13 16.35.44@2x.png" alt="Taipei Zhongshan Store Location">
           </div>
         </div>
@@ -67,6 +67,8 @@
 
 
     <%- include('./layout/footer'); -%>
+    <%- include('./layout/aos'); -%>
+
 
       <script type="module" src="../main.js"></script>
 </body>
