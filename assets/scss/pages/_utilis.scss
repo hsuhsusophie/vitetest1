@@ -1,3 +1,22 @@
+.container {
+    /* 桌機 */
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 12px;
+  
+    /* 平板 */
+    @media (max-width: 768px) {
+      max-width: 720px;
+   
+    }
+  
+    /* 手機 */
+    @media (max-width: 375px) {
+      max-width: 372px;
+    }
+  }
+
+
 .bg-white {
     background-color: $white;
 }
@@ -55,6 +74,14 @@
     text-align: left;
 }
 
+.text-italic{
+    font-style: italic;
+}
+
+.text-robot{
+    font-family: 'Roboto', sans-serif;
+}
+
 .fs-1 {
     font-size: 64px;
 }
@@ -87,8 +114,20 @@
     font-size: 32px;
 }
 
+.fw-bolder{
+    font-weight: 900;
+}
+
 .fw-bold {
     font-weight: 700;
+}
+
+.fw-medium{
+    font-weight: 500;
+}
+
+.fw-normal{
+    font-weight: 400;
 }
 
 .d-flex {
@@ -117,13 +156,46 @@
     align-items: center;
 }
 
+.align-items-center{
+    align-items: center;
+}
+
+.align-items-start{
+    align-items: start;
+}
+
+.align-self-center{
+    align-self:center;
+}
+
+.align-self-start{
+    align-self: flex-start;
+}
+
+.align-self-end{
+    align-self: flex-end;
+}
+
+
+.py-6 {
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+}
 .py-8 {
+    padding-top: 8px;
     padding-bottom: 8px;
+
 }
 
 .py-12 {
     padding-top: 12px;
     padding-bottom: 12px;
+}
+
+.py-16 {
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .py-24 {
@@ -135,7 +207,17 @@
 }
 
 .py-80 {
+    padding-top: 80px;
     padding-bottom: 80px;
+}
+
+.py-296{
+    padding-top: 296px;
+    padding-bottom: 296px;
+}
+
+.px-12{
+    padding-left: 12px;
 }
 
 .px-24 {
@@ -158,14 +240,59 @@
     margin-bottom: 8px;
 }
 
+.mb-24{
+    margin-bottom: 24px;
+
+}
+
+.mb-32{
+    margin-bottom: 32px;
+
+}
+
+.mb-48{
+    margin-bottom: 48px;
+}
+
 .mr-8 {
     margin-right: 8px;
 }
+.gap-1{
+    gap:4px;
+}
 
-.gap-16 {
-    gap: 64px;
+.gap-3{
+    gap:12px;
+}
+
+.gap-4{
+    gap:16px;
+}
+
+.gap-5{
+    gap:20px;
+}
+
+.gap-6{
+    gap: 24px;
+}
+
+.gap-8{
+    gap: 32px;
+}
+
+.gap-12{
+    gap: 48px;
+}
+
+.gap-16{
+    gap:64px;
 }
 
 .px-25 {
     padding: 25px 0;
+}
+
+.p-16{
+    padding: 16px;
 }

@@ -1,0 +1,271 @@
+.banner {
+    background: url(../images/home-header.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &-title {
+        height: 100%;
+    }
+
+    @media (max-width: 768px) {
+
+        padding: 144px 12px;
+        background: url(../images/home-header-sm.png);
+
+        .text {
+            font-size: 16px;
+        }
+
+        .slogan {
+            font-size: 24px;
+        }
+
+        .container {
+            padding: 144px 12px;
+        }
+
+    }
+
+    .btn {
+        padding: 6px 12px;
+
+        &:hover {
+            opacity: 0.7;
+        }
+
+    }
+}
+
+
+
+.feature {
+
+    .container {
+        @media (max-width: 375px) {
+            padding-top: 40px;
+            padding-bottom: 40px;
+
+            .title {
+                @media (max-width: 768px) {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}
+
+.list {
+    @media (max-width: 375px) {
+        gap: 32px;
+    }
+}
+
+.item {
+    width: 20%;
+
+    @media (max-width: 768px) {
+        width: 48%;
+    }
+
+    @media (max-width: 375px) {
+        width: 100%;
+    }
+
+    .itemImg {
+        width: 83px;
+    }
+}
+
+
+.series {
+    .title {
+        @media (max-width: 375px) {
+            font-size: 24px;
+            margin-bottom: 24px;
+        }
+    }
+}
+
+.itemSeries {
+    width: 31%;
+
+    @media (max-width: 992px) {
+        width: 100%;
+
+    }
+}
+
+.subtitle {
+    @media (max-width: 375px) {
+        font-size: 24px;
+    }
+}
+
+
+.design {
+    background-image: url(../images/index-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media (max-width: 768px) {
+        background-image: url(../images/index-bg-md.png);
+
+    }
+
+    @media(max-width:375px) {
+        background-image: url(../images/index-bg-sm.png);
+    }
+
+    .container{
+        @media(max-width:375px) {
+            padding-top: 40px;
+            padding-bottom: 40px;
+
+        }
+    }
+
+    .title{
+        @media(max-width:375px){
+            font-size: 24px;
+            margin-bottom: 24px;
+        }
+    }
+
+    .detail{
+        @media (max-width: 768px){
+            flex-direction: column;
+            gap: 24px;
+        }
+    }
+
+    .itemDesign{
+        width: 50%;
+        @media (max-width: 768px){
+            width: 100%;
+        }
+    }
+}
+
+    .img_1{
+        height: 240px;
+        background-image: url(../images/home-section4-1.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        @media(max-width:375px){
+            background-image: url(../images/home-section4-1-sm.png);
+        }
+    }
+
+    .img_2{
+        height: 240px;
+        background-image: url(../images/home-section4-2.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        @media(max-width:375px){
+            background-image: url(../images/home-section4-2-sm.png);
+        }
+
+       
+    }
+
+
+    .recommend{
+
+        .container{
+            @media(max-width:375px){
+                padding-top: 40px;
+                padding-bottom: 40px;
+            }
+           
+        }
+      
+        .title{
+            @media(max-width:375px){
+                font-size: 24px;
+                margin-bottom: 24px;
+            }
+        }
+      
+        .list{
+           @media(max-width:375px){
+                gap:16px;
+            }
+        }
+      
+      
+        .item{
+            width: 23%;
+            box-shadow: 0px 2px 6px #00000029;
+            border-radius: 4px;
+            @media(max-width:992px){
+                width: 48%;
+            }
+      
+            @media(max-width:768px){
+                width:100%;
+            }
+      
+            .itemImg{
+                width:100%;
+                @media(max-width:992px){
+                    width: 100%;
+                }
+
+
+                @media(max-width:768px){
+                    width: 100%;
+                } 
+            }
+            
+        }
+      
+        .textArea{
+            height: 205px;
+        }
+      
+        .content{
+            flex-grow: 1;
+        }
+      }
+
+
+      .contact{
+        .container{
+            width: 50%;
+      
+            @media(max-width:992px){
+                width: 83%;
+            }
+      
+            @media(max-width:768px){
+                width: 100%;
+            }
+        }
+      
+        .title{
+            @media(max-width:768px){
+                margin-bottom: 24px;
+            }
+        }
+      
+        .suggest{
+            height: 136px;
+        }
+      
+        .checkPrivacy{
+            margin: 0;
+        }
+      
+        .submit{
+            width: 66%;
+            &:hover{
+                background-color: $secondary;
+            }
+        }
+      }
